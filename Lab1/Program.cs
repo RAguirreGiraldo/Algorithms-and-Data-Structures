@@ -1,5 +1,4 @@
 ﻿
-
 Console.WriteLine("Enter a Number of the Size of the World");
 int sizeOFarray = Int32.Parse(Console.ReadLine());
 
