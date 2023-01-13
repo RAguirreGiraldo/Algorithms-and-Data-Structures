@@ -1,6 +1,6 @@
 ﻿Console.WriteLine(" ");
-Console.WriteLine("     In this program you can create a list of the word ");
-Console.WriteLine("         count some letter and get his percentaje");
+Console.WriteLine("     In this program you can create a list of the word, ");
+Console.WriteLine("         count some character and get his percentaje");
 Console.WriteLine("             Press any key to start");
 Console.WriteLine(" ");
 Console.ReadKey();
@@ -32,7 +32,7 @@ for (int i = 0; i < sizeOfarraywords; i++)
 Console.WriteLine("\n Press any Letter Do you want Count ");    // Select caracter to count
 char input = Console.ReadKey().KeyChar;
 
-Console.WriteLine("\n The letter Do you Want Couny is : " + input);
+Console.WriteLine("\n The letter Do you Want Count is : " + input);
 
 int count = 0;
 for (int i = 0; i < arrayNewWord.Length; i++)                   // count caracter in array
@@ -45,8 +45,7 @@ for (int i = 0; i < arrayNewWord.Length; i++)                   // count caracte
 }
 
 Console.WriteLine("\n Total number of \"" + input + "\" is = " + count);
-
-
+ 
 int totalLetters = 0;
 for (int i = 0; i < arrayNewWord.Length; i++)                   // Calculate percentage
 {
