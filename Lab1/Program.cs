@@ -14,3 +14,17 @@ for (int i = 0; i < arrayNewWord.Length; i++)
     Console.WriteLine("Enter a Word {0}: ", i + 1); //World
     arrayNewWord[i] = Console.ReadLine();
 }
+
+
+// Print word
+Console.WriteLine();
+Console.WriteLine(" Press any key to show the words ");
+Console.ReadKey();
+
+for (int i = 0; i < sizeOfarraywords; i++)
+{
+    Console.WriteLine("{0}. {1}", i + 1, arrayNewWord[i]);
+}
+
+
+
